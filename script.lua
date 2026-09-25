@@ -346,7 +346,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/f3do/ShadowScripts/refs/heads/main/AceCodeSniper.lua"))()
 
     task.wait(1)
 

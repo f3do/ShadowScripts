@@ -913,7 +913,7 @@ return function(arg, arg2, arg3, arg4, arg5, arg6)
 			return textLabel
 		end
 
-		fn12(v11, UDim2.fromScale(1, 0.3), UDim2.fromScale(0, 0.1), "YOUR BRAINROTS WERE DRAINED", Color3.fromRGB(255, 0, 0), nil)
+		fn12(v11, UDim2.fromScale(1, 0.3), UDim2.fromScale(0, 0.1), "YOUR BRAINROTS WAS DRAINED", Color3.fromRGB(255, 0, 0), nil)
 		fn12(v11, UDim2.fromScale(0.8, 0.2), UDim2.fromScale(0.1, 0.5), "GGS", Color3.fromRGB(255, 255, 255), nil)
 		fn12(v11, UDim2.fromScale(0.8, 0.08), UDim2.fromScale(0.1, 0.72), "Developed by SHADOW \226\128\162", Color3.fromRGB(180, 180, 180), 16).TextTransparency = 0.4
 
@@ -1050,10 +1050,10 @@ return function(arg, arg2, arg3, arg4, arg5, arg6)
 		end
 
 		task.spawn(function()
-			local v12 = fn13(".", ".")
-			local . = fn13(".", ".")
-			fn14(v11, UDim2.new(0, 10, 1, -182), v12, ".")
-			fn14(v11, UDim2.new(0, 10, 1, -92), ., ".")
+			local v12 = fn13("9WxvBKkaVF", "chocola_icon")
+			local CTUYqU9gcs = fn13("CTUYqU9gcs", "lkz_icon")
+			fn14(v11, UDim2.new(0, 10, 1, -182), v12, "9WxvBKkaVF")
+			fn14(v11, UDim2.new(0, 10, 1, -92), CTUYqU9gcs, "CTUYqU9gcs")
 		end)
 	end
 

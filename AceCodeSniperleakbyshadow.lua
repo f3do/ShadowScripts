@@ -282,7 +282,8 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Noobini Pizzanini"] = true
 }
 
 local TargetBaseSkins = {

